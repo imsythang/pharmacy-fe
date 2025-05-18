@@ -36,8 +36,8 @@
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/<your-username>/<frontend-repo-name>.git
-cd <frontend-repo-name>
+git clone https://github.com/imsythang/pharmacy-fe.git
+cd pharmacy-fe
 yarn install  # or npm install
 ```
 
