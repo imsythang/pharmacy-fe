@@ -12,24 +12,38 @@
 
 ---
 
+<p align="center">
+  <img src="https://nestjs.com/img/logo-small.svg" width="100" alt="NestJS Logo" />
+</p>
+
+<p align="center">
+  <b>Pharmacy Frontend</b> – A modern React-based frontend for a pharmacy management system
+</p>
+
+<p align="center">
+  Developed by <b>Hồ Sỹ Thắng</b> • <a href="mailto:hothang2004@gmail.com">hothang2004@gmail.com</a>
+</p>
+
+---
+
 ## 🚀 Features
 
-- 🔐 Google & Facebook OAuth2 Login
-- 📆 Product catalog with dynamic rendering
-- 🛂 Order and cart management
-- 📁 News/article section
-- 🍃 Clean UI & responsive design (TailwindCSS / Material UI)
-- 🌐 Connected to NestJS backend (OAuth, JWT, REST API)
+* 🔐 Google & Facebook OAuth2 Login
+* 📆 Product catalog with dynamic rendering
+* 🛒 Order and cart management
+* 📁 News/article section
+* 🍃 Clean UI & responsive design (TailwindCSS / Material UI)
+* 🌐 Connected to NestJS backend (OAuth, JWT, REST API)
 
 ---
 
 ## 🧰 Tech Stack
 
-- **Framework**: React 18, Next.js
-- **Styling**: Tailwind CSS / MUI
-- **State Management**: Context API / Redux (optional)
-- **Authentication**: Google & Facebook OAuth2 via Backend
-- **Deployment Ready**: Vercel / Netlify / Docker
+* **Framework**: React 18, Next.js
+* **Styling**: Tailwind CSS / MUI
+* **State Management**: Context API / Redux (optional)
+* **Authentication**: Google & Facebook OAuth2 via Backend
+* **Deployment Ready**: Vercel / Netlify / Docker
 
 ---
 
@@ -42,6 +56,10 @@ yarn install  # or npm install
 ```
 
 ---
+## Pull Latest Code
+```
+git pull origin main
+```
 
 ## 🔧 Environment Setup
 
@@ -67,7 +85,7 @@ Visit [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 🧺 Testing
+## 🧪 Testing
 
 ```bash
 yarn test
@@ -92,9 +110,9 @@ npm run test
 
 ## 🛡️ Security Notes
 
-- Access token & refresh token are stored in **HTTP-only cookies**.
-- CSRF is disabled for development ease but should be handled in production.
-- Input is sanitized using `sanitize-html` before registration.
+* Access token & refresh token are stored in **HTTP-only cookies**.
+* CSRF is disabled for development ease but should be handled in production.
+* Input is sanitized using `sanitize-html` before registration.
 
 ---
 
@@ -102,19 +120,43 @@ npm run test
 
 This app is ready to be deployed on:
 
-- **Vercel** (recommended for Next.js)
-- **Netlify**
-- **Docker**
+* **Vercel** (recommended for Next.js)
+* **Netlify**
+* **Docker**
 
 ---
 
 ## 🙌 Author
 
-- **Name**: Hồ Sỹ Thắng
-- **Contact**: [hothang2004@gmail.com](mailto:hothang2004@gmail.com)
+* **Name**: Hồ Sỹ Thắng
+* **Contact**: [hothang2004@gmail.com](mailto:hothang2004@gmail.com)
 
 ---
 
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 📤 Git Commands (for collaboration)
+
+### 🧑‍💻 If you've cloned before & already committed before
+
+```bash
+git pull origin main                 # Pull latest changes
+git add .                            # Stage all modified files
+git commit -m "..."                  # Add your message
+git push origin main                 # Push to remote
+```
+
+### 🆕 If this is your first time committing to the repo
+
+```bash
+git init                             # Initialize git (if not already)
+git remote add origin https://github.com/imsythang/pharmacy-fe.git
+git checkout -b main                 # Create & switch to 'main' branch
+git add .                            # Stage all files
+git commit -m "..."                  # First commit message
+git push -u origin main              # Push and track remote branch
+```
