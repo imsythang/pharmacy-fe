@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/48241794/229338336-1291b899-f65c-4c71-9d13-9e55ff99f6a1.png" width="120" alt="React Logo" />
+  <img src="https://nestjs.com/img/logo-small.svg" width="100" alt="NestJS Logo" />
 </p>
 
 <p align="center">
