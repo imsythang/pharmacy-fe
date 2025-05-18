@@ -12,20 +12,6 @@
 
 ---
 
-<p align="center">
-  <img src="https://nestjs.com/img/logo-small.svg" width="100" alt="NestJS Logo" />
-</p>
-
-<p align="center">
-  <b>Pharmacy Frontend</b> – A modern React-based frontend for a pharmacy management system
-</p>
-
-<p align="center">
-  Developed by <b>Hồ Sỹ Thắng</b> • <a href="mailto:hothang2004@gmail.com">hothang2004@gmail.com</a>
-</p>
-
----
-
 ## 🚀 Features
 
 * 🔐 Google & Facebook OAuth2 Login
